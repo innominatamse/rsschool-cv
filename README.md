@@ -1,1 +1,1 @@
-# https://innominatamse.github.io/rsschool-cv-html/
+# https://innominatamse.github.io/rsschool-cv/
