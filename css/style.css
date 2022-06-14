@@ -1,0 +1,244 @@
+@import url(./reset.css);
+
+body {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 7px; */
+    /* line-height: 18px; */
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper {
+    /* padding: 0 15px 0; */
+}
+.wrapper::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background: #101214;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header {
+}
+.main {
+    padding: 0 15px;
+}
+.header__container {
+}
+.header__nav {
+    padding: 30px 15px;
+    background: #fedb25;
+}
+.header__list {
+    /* max-width: 595px; */
+    width: 100%;
+    /* margin: 0 -5px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header__list li {
+    list-style: none;
+    padding: 0 5px;
+}
+.header__link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #101214;
+    text-transform: uppercase;
+}
+.header__box {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 500px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.header__info {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+.header__status {
+    font-family: "Inter";
+    display: block;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.header__avataer {
+    width: 160px;
+    height: 160px;
+    /* background-image: url(../img/photo_2022-01-30_19-22-58.jpg); */
+    border-radius: 50%;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px -15px;
+}
+.box:nth-child(1) {
+    max-width: 65%;
+}
+.box:nth-child(2) {
+    max-width: 35%;
+}
+.box {
+    /* max-width: 50%; */
+    width: 100%;
+    padding: 0 15px;
+}
+.main {
+}
+.inner:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+pre {
+    padding: 15px;
+    border-radius: 15px;
+    background: #fedb25;
+    font-family: "Inter";
+    white-space: break-spaces;
+}
+.subtitle a {
+    display: block;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 1.57482px;
+    text-transform: uppercase;
+    color: #73808d;
+    margin-bottom: 15px;
+}
+.desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #101214;
+}
+.contacts__link:first-of-type {
+    margin-bottom: 15px;
+}
+.contacts__link {
+    display: block;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #73808d;
+}
+.contacts__link:hover {
+    color: #fedb25;
+}
+.contacts {
+}
+.decorate {
+    color: #101214;
+}
+.skills,
+.languages {
+    padding-left: 15px;
+}
+li {
+    padding-bottom: 15px;
+    list-style: disc;
+}
+.skulls__item:last-of-type {
+    padding-bottom: 0;
+}
+.cv {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #101214;
+    line-height: 18px;
+}
+.cv:hover {
+    color: #fedb25;
+}
+.languages {
+}
+.languages__item {
+}
+.footer {
+    width: 100%;
+}
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #fedb25;
+}
+.footer__rs {
+    /* margin-right: 60px; */
+    width: 100px;
+    height: 40px;
+    background-image: url(https://rs.school/images/rs_school_js.svg);
+    background-repeat: no-repeat;
+    display: block;
+}
+.footer__github {
+    background-image: url(../img/GitHub-Mark-120px-plus.png);
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+.date{
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+}
+@media (max-width: 700px) {
+    .header__link::after{
+        content: '';
+        display: block;
+        width: 60%;
+        height: 1px;
+        background: #101214;
+        /* margin-top: 5px; */
+        margin: 5px auto 0;
+
+    }
+    .header__box {
+        flex-direction: column;
+        padding: 0;
+        margin: 30px auto;
+    }
+    .box:nth-child(1) {
+        margin-bottom: 15px;
+    }
+    .box:nth-child(1),
+    .box:nth-child(2) {
+        max-width: 100%;
+    }
+    .flex {
+        flex-wrap: wrap;
+    }
+    .header__info {
+        margin-bottom: 15px;
+    }
+    .header__list li:not(:last-of-type) {
+        padding-bottom: 15px;
+    }
+}
