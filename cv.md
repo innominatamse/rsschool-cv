@@ -12,7 +12,7 @@
 
 ### About myself
 
-Front-end developer who loves his job, develops in his profession, and also sees his future in this. I strive to become a sought-after specialist through hard work and dedication. Understanding all the intricacies of layout, deep learning of JavaScript and React Native.
+Front-end developer who loves, his job, develops in his profession, and also sees his future in this. I strive to become a sought-after specialist through hard work and dedication. Understanding all the intricacies of layout, deep learning of JavaScript and React Native.
 
 ---
 
