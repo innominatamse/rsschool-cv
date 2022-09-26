@@ -1,19 +1,20 @@
 # Natalya Safarevich
 
 ## Junior Frontend Developer
+
 ### Contacts::
 
-**Tel:** +995 598 90 26 17
+**Tel:** +995 598 90 26 18
 
 **E-mail:** innominatamse@gmail.com
 
-********
+---
 
 ### About myself
 
 Front-end developer who loves his job, develops in his profession, and also sees his future in this. I strive to become a sought-after specialist through hard work and dedication. Understanding all the intricacies of layout, deep learning of JavaScript and React Native.
 
-********
+---
 
 ### Skills and Proficiency:
 
@@ -25,7 +26,7 @@ Front-end developer who loves his job, develops in his profession, and also sees
 6. BEM
 7. Sass
 
-********
+---
 
 ### Code example
 
@@ -53,37 +54,36 @@ films.map(function (film) {
     }
 });
 
-``` 
+```
 
-********
+---
 
 ### Work experience:
 
 **Contract Front-end Developer(RMAA Group)**
 
-_Responsibilities:_ 
-Responsive layout (web & mobile), based on Figma mockups; 
+_Responsibilities:_
+Responsive layout (web & mobile), based on Figma mockups;
 
 **Contract Front-end Developer(RMAA Group)**
 
-_Responsibilities:_ 
-web development, responsive layout; 
+_Responsibilities:_
+web development, responsive layout;
 
-********
+---
 
 ### Education and courses:
 
-1. Front-end Development (JavaScript + React JS), 2019 
+1. Front-end Development (JavaScript + React JS), 2019
 
 _IT School MyFreedom, Minsk, Belarus_
-2. Front-end Development (JavaScript + React JS), 2022 
+2. Front-end Development (JavaScript + React JS), 2022
 
 _TeachMeSkills, Minsk, Belarus_
 
-********
+---
 
 ### Languages:
 
 1. English - A2;
 2. Russian - Native;
-
